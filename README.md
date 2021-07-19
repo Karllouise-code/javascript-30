@@ -6,14 +6,14 @@ This is the solution to the [first day challenge](https://javascript30.com/) whi
 
 ## Contents
 
-- [Challenge](#challenge/process)
+- [Challenge](#challenge-and-process)
 - [App Demo](#app-demo)
 - [Full Screenshot](#screenshot)
 - [Learnings](#what-i-learned)
 - [Useful Resources](#useful-resources)
 - [Links](#links)
 
-## Challenge/Process
+## Challenge and Process
 
 This is my own words of challenge and my process.
 
