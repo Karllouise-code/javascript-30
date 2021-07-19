@@ -6,7 +6,7 @@ This is the solution to the [first day challenge](https://javascript30.com/) whi
 
 ## Contents
 
-- [Challenge](#challenge-and-process)
+- [Challenge and Process](#challenge-and-process)
 - [App Demo](#app-demo)
 - [Full Screenshot](#screenshot)
 - [Learnings](#what-i-learned)
