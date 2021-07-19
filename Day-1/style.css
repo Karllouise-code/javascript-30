@@ -91,7 +91,7 @@ p {
 
 /** MEDIA QUERIES **/
 
-@media (max-width: 1600px) {
+@media (max-width: 1300px) {
     .container {
         grid-template-columns: repeat(8, 1fr);
     }
