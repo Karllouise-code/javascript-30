@@ -49,11 +49,11 @@ setTimeout(() => {
 
 ## App Demo
 
-![]()
+![](https://github.com/Karllouise-code/javascript-30/blob/day2/images/jsClock.gif)
 
 ## Screenshot
 
-![]()
+![](https://github.com/Karllouise-code/javascript-30/blob/day2/images/full-screenshot.png)
 
 ## What I Learned
 
@@ -61,10 +61,10 @@ Today, I've learned mostly about Date object where I can get the value of time i
 
 ## Useful Resources
 
-- [How to Use Keyboard Listeners in Vanilla JavaScript](https://alligator.io/js/listening-to-keyboard/)
+- [Day 2 Template](https://github.com/Karllouise-code/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)
 - [MDN Date Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 - [W3Schools Get Date Methods](https://www.w3schools.com/js/js_date_methods.asp)
 
-## Links
+## Link
 
 Live Site - <https://karllouise-drumkit.netlify.app/>
