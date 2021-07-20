@@ -18,6 +18,10 @@
     supported by Chrome, Edge, Opera and Firefox */
 }
 
+:focus {
+    outline: none;
+}
+
 body {
     font-family: 'Courier Prime', monospace;
     background-image: url("./images/background-image.png");
@@ -30,6 +34,7 @@ header {
     align-content: center;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
     height: 100vh;
     width: 90%;
     margin: 0 auto;
@@ -45,7 +50,6 @@ header {
 kbd,
 p {
     text-transform: uppercase;
-    z-index: 2;
 }
 
 kbd {
@@ -57,6 +61,28 @@ kbd {
 p {
     font-family: monospace;
     color: #ffff00;
+}
+
+a {
+    text-decoration: none;
+    font-size: .6rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1em;
+    color: #fff;
+    border: 2px solid #000;
+    padding: .3rem 1rem;
+    background-color: rgb(0 0 0 / 60%);
+    transition: .6s;
+    border-radius: 1rem;
+}
+
+.btn:hover,
+:focus {
+    background: #000;
+    transform: scale(1.1);
 }
 
 .container {
@@ -71,6 +97,10 @@ p {
     background-color: rgb(0 0 0 / 60%);
     /* Black w/opacity/see-through */
     cursor: pointer;
+}
+
+.container>*:hover {
+    transform: scale(1.1);
 }
 
 .text-A,
