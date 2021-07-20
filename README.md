@@ -67,4 +67,4 @@ Today, I've learned mostly about Date object where I can get the value of time i
 
 ## Link
 
-Live Site - <https://karllouise-drumkit.netlify.app/>
+Live Site - <https://klr-analogclock.netlify.app/>
