@@ -7,6 +7,7 @@ This is the solution to the [first day challenge](https://javascript30.com/) whi
 ## Contents
 
 - [Challenge and Process](#challenge-and-process)
+- [Favorite Functions](#favorite-functions)
 - [App Demo](#app-demo)
 - [Full Screenshot](#screenshot)
 - [Learnings](#what-i-learned)
@@ -23,6 +24,47 @@ This is my own words of challenge and my process.
 - Embed audio files to html as well as add event to it.
 - Release event immediately after press.
 - Make it responsive
+
+## Favorite Functions
+
+```js
+//* Audio function for clap just like the rest of audio
+function clap() {
+  var audioClap = new Audio("./audio/clap.wav");
+  audioClap.play();
+}
+```
+
+```js
+//* Add border when play function on clap just like the rest of audio
+function borderA() {
+  document.getElementById("letter-A").classList.add("text-A");
+}
+```
+
+```js
+//* Remove function borderA() and place this to setTimeout() to remove function immediately
+function removeA() {
+  document.getElementById("letter-A").classList.remove("text-A");
+}
+```
+
+```js
+//* The keyboard listener and the callbacks of the functions above
+//* Key Press Event Listener
+
+document.addEventListener('keypress', (event) => {
+//* FOR LETTER 'A' BUT SAME CODE ON THE REST OF THE KEYS
+    if (event.key === 'a' || event.key === 'A') {
+        event.preventDefault()
+        clap()
+        borderA()
+        setTimeout(() => {
+            removeA()
+        }, 100)
+
+    //* my favorite function is this setTimeout() and put 100ms so that after click it will remove the function border immediately. Soo glad that I am able to use this
+```
 
 ## App Demo
 
