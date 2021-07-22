@@ -37,7 +37,7 @@ This is my own words of challenge and my process.
 
 ```js
 //* This code lets me change the data attribute in the document.
-function handleUpdate() {
+function handleUpdates() {
   const suffix = this.dataset.size || "";
   document.documentElement.style.setProperty(
     `--${this.name}`,
@@ -56,11 +56,12 @@ function handleUpdate() {
 
 ## What I Learned
 
-On this day,
+On this day, I've learned how to make changes on CSS by way of JavaScript, as well as the use of data attributes on html, pseudo code :root on css, and learned about the use of dataset object.
 
 ## Useful Resources
 
 - [Day 3 Template](https://github.com/wesbos/JavaScript30/tree/master/03%20-%20CSS%20Variables)
+- [Add an Event Listener to Multiple Elements in JavaScript](https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/)
 
 ## Link
 
