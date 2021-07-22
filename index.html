@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scoped CSS Variables and JS</title>
+    <title>Scoped CSS Variable and JS</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,27 +13,39 @@
 </head>
 
 <body>
-    <h2>
-        Update CSS Variables with <span class="h1">JS</span>
-    </h2>
     <header>
-        <label for="spacing">Spacing: </label>
-        <input type="range" name="spacing" id="spacing" data-size="px">
+        <div class="text-container">
+            <label for="font">Font-size: </label>
+            <input type="range" name="fontsize" id="fontsize" data-size="px">
+            <label for="font">Font-color: </label>
+            <input type="color" name="fontcolor" id="color">
 
-        <label for="blur">Blur: </label>
-        <input type="range" name="blur" id="blur" data-size="px">
 
-        <label for="color">Base Color: </label>
-        <input type="color" name="base" id="base">
+            <h2>Using CSS Variable and <span class="h1">JS</span> </h2>
+        </div>
+
+        <div class="range-container">
+            <label for="range">Spacing: </label>
+            <input type="range" name="spacing" id="spacing" data-size="px">
+
+            <label for="blur">Blur: </label>
+            <input type="range" name="blur" id="blur" data-size="px">
+
+            <label for="color">Border-color: </label>
+            <input type="color" name="color" id="color">
+        </div>
+
+        <div class="grid">
+            <img src="./images/background.jpg" alt="background">
+            <div class="bginputcontent">
+                <label for="bgcolor">Background-color: </label>
+                <input type="color" class="bgcolor" name="bgcolor" id="color">
+                <a target="_blank" href="https://github.com/Karllouise-code/javascript-30/tree/day3">GitHub</a>
+
+            </div>
+        </div>
 
     </header>
-    <div class="img-container">
-        <img src="./images/background.jpg" alt="background-img">
-    </div>
-
-    <a target="_blank" href="https://github.com/Karllouise-code/javascript-30/tree/day3">
-        <h1>GitHub</h1>
-    </a>
 
     <script src="main.js"></script>
 </body>
