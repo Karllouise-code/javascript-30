@@ -8,6 +8,8 @@
 
 ### [Day 2 - Analog Clock](https://github.com/Karllouise-code/javascript-30/tree/day2)
 
-### [Day 3 - Scoped CSS Variables and JavaScript ](https://github.com/Karllouise-code/javascript-30/tree/day3)
+### [Day 3 - Scoped CSS Variables and JavaScript](https://github.com/Karllouise-code/javascript-30/tree/day3)
+
+### [Day 4 - Array Cardio Day 1](https://github.com/Karllouise-code/javascript-30/tree/day4)
 
 #### Challenge By [Wes Bos](https://javascript30.com/)
