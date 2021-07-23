@@ -1,0 +1,56 @@
+* {
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    height: 100vh;
+}
+
+header>* {
+    flex-basis: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.first-panel {
+    background-image: url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500);
+}
+
+.second-panel {
+    background-image: url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500);
+}
+
+.third-panel {
+    background-image: url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d);
+}
+
+.fourth-panel {
+    background-image: url(https://source.unsplash.com/ITjiVXcwVng/1500x1500);
+}
+
+.fifth-panel {
+    background-image: url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500);
+}
+
+p {
+    font-size: 2rem;
+}
+
+.middle {
+    font-size: 3rem;
+}
