@@ -38,6 +38,10 @@ function handleUpdates() {
 }
 ```
 
+## App Demo
+
+![](https://github.com/Karllouise-code/javascript-30/blob/main/Day-5/images/flexpanels.gif)
+
 ## Screenshot
 
 ![](https://github.com/Karllouise-code/javascript-30/blob/day5/images/fullscreenshot.png)
