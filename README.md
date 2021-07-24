@@ -1,19 +1,44 @@
-# JavaScript 30 Day Challenge
+# Day 6
 
-**To see my progress on each day kindly click on the branches and find what day you want to look for where you will see how I solve the challenge as well as view the live website.**
+## Type Ahead
+
+This is the solution to the [sixth day challenge](https://javascript30.com/) which is the type ahead challenge.
 
 ## Contents
 
-### [Day 1 - Drum Kit](https://github.com/Karllouise-code/javascript-30/tree/day1)
+- [Challenge and Process](#challenge-and-process)
+- [Favorite Code](#favorite-code)
+- [Full Screenshot](#screenshot)
+- [Learnings](#what-i-learned)
+- [Useful Resources](#useful-resources)
+- [Links](#link)
 
-### [Day 2 - Analog Clock](https://github.com/Karllouise-code/javascript-30/tree/day2)
+## Challenge and Process
 
-### [Day 3 - Scoped CSS Variables and JavaScript](https://github.com/Karllouise-code/javascript-30/tree/day3)
+## Favorite Code
 
-### [Day 4 - Array Cardio Day 1](https://github.com/Karllouise-code/javascript-30/tree/day4)
+```js
+//* The following code can access array of objects inside the JSON file
+fetch(endpoint)
+  .then((blob) => blob.json())
+  .then((data) => cities.push(...data));
+```
 
-### [Day 5 - Flex Panels](https://github.com/Karllouise-code/javascript-30/tree/day5)
+## App Demo
 
-### [Day 6 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day6)
+![](https://github.com/Karllouise-code/javascript-30/blob/main/Day-6/images/typeahead.gif)
 
-#### Challenge By [Wes Bos](https://javascript30.com/)
+## Screenshot
+
+![](https://github.com/Karllouise-code/javascript-30/blob/day6/images/fullscreenshot.png)
+
+## What I Learned
+
+## Useful Resources
+
+- [Day 6 Template](https://github.com/wesbos/JavaScript30/tree/master/06%20-%20Type%20Ahead)
+- [Number With Commas](https://stackoverflow.com/questions/2901102/how-to-print-a-number-with-commas-as-thousands-separators-in-javascript)
+
+## Link
+
+Live Site - <https://klr-typeahead.netlify.app/>
