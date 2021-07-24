@@ -40,11 +40,11 @@ function handleUpdates() {
 
 ## App Demo
 
-![](https://github.com/Karllouise-code/javascript-30/blob/day3/images/flexpanels.gif)
+![](https://github.com/Karllouise-code/javascript-30/blob/day5/images/flexpanels.gif)
 
 ## Screenshot
 
-![](https://github.com/Karllouise-code/javascript-30/blob/day3/images/fullscreenshot.png)
+![](https://github.com/Karllouise-code/javascript-30/blob/day5/images/fullscreenshot.png)
 
 ## What I Learned
 
