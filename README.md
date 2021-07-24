@@ -14,4 +14,6 @@
 
 ### [Day 5 - Flex Panels](https://github.com/Karllouise-code/javascript-30/tree/day5)
 
+### [Day 6 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day6)
+
 #### Challenge By [Wes Bos](https://javascript30.com/)
