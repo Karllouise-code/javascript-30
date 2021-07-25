@@ -15,6 +15,13 @@ This is the solution to the [sixth day challenge](https://javascript30.com/) whi
 
 ## Challenge and Process
 
+- Show every single city that matches whatever typed in, along with the corresponding population.
+- Get data from external source in cities.json file
+- Assign the source into the variable
+- Fetch data in the array
+- When user typed, filter the results that matches city/state names
+- Lastly, highlights the letters whatever keypressed
+
 ## Favorite Code
 
 ```js
@@ -33,6 +40,10 @@ fetch(endpoint)
 ![](https://github.com/Karllouise-code/javascript-30/blob/day6/images/fullscreenshot.png)
 
 ## What I Learned
+
+- .then() can return a blob of data on a fetch promise
+- Use of push() and the spread '...' syntax to return proper array without putting it in new array.
+- The use of RegExp to store whatever the user passes in
 
 ## Useful Resources
 
