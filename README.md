@@ -16,4 +16,6 @@
 
 ### [Day 6 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day6)
 
+### [Day 7 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day7)
+
 #### Challenge By [Wes Bos](https://javascript30.com/)
