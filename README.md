@@ -1,23 +1,61 @@
-# JavaScript 30 Day Challenge
+# Day 8
 
-**To see my progress on each day kindly click on the branches and find what day you want to look for where you will see how I solve the challenge as well as view the live website.**
+## HTML 5 Canvas
+
+This is the solution to the [eight day challenge](https://javascript30.com/) which is the HTML 5 Canvas.
 
 ## Contents
 
-### [Day 1 - Drum Kit](https://github.com/Karllouise-code/javascript-30/tree/day1)
+- [Challenge and Process](#challenge-and-process)
+- [Favorite Code](#favorite-code)
+- [App Demo](#app-demo)
+- [Full Screenshot](#screenshot)
+- [Learnings](#what-i-learned)
+- [Useful Resources](#useful-resources)
+- [Links](#link)
 
-### [Day 2 - Analog Clock](https://github.com/Karllouise-code/javascript-30/tree/day2)
+## Challenge and Process
 
-### [Day 3 - Scoped CSS Variables and JavaScript](https://github.com/Karllouise-code/javascript-30/tree/day3)
+- Research about HTML canvas
+- Use mouse event listeners to listen to mouse movements
+- Get to know the syntax of syntax
 
-### [Day 4 - Array Cardio Day 1](https://github.com/Karllouise-code/javascript-30/tree/day4)
+## Favorite Code
 
-### [Day 5 - Flex Panels](https://github.com/Karllouise-code/javascript-30/tree/day5)
+```js
+if (!isDrawing) return; // stop the fn from running when they are not moused down
+// To control the width as well as reset the value of hue
+if (hue >= 360) {
+  hue = 0;
+}
+if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
+  direction = !direction;
+}
+if (direction) {
+  ctx.lineWidth++;
+} else {
+  ctx.lineWidth--;
+}
+```
 
-### [Day 6 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day6)
+## App Demo
 
-### [Day 7 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day7)
+![](https://github.com/Karllouise-code/javascript-30/blob/main/Day-8/images/htmlcanvas.gif)
 
-### [Day 8 - Html 5 Canvas](https://github.com/Karllouise-code/javascript-30/tree/day8)
+## Screenshot
 
-#### Challenge By [Wes Bos](https://javascript30.com/)
+![](https://github.com/Karllouise-code/javascript-30/blob/day8/images/fullscreenshot.png)
+
+## What I Learned
+
+Today, I learned about a technique where you can create a flag variable to control or limit what happens in the flow of code. And of course I was introduced to the basics of making a canvas using html and javascript.
+
+## Useful Resources
+
+- [Day 8 Template](https://github.com/wesbos/JavaScript30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas)
+- [Basic usage of canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage)
+- [CanvasRenderingContext2D.lineJoin](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin)
+
+## Link
+
+Live Site - <https://klr-htmlcanvas.netlify.app/>
