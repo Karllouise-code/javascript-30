@@ -24,7 +24,7 @@
 
 body {
     font-family: 'Courier Prime', monospace;
-    background-image: url("./images/background-image.png");
+    background-image: url('./images/background-image.png');
     background-size: cover;
 }
 
@@ -65,7 +65,7 @@ p {
 
 a {
     text-decoration: none;
-    font-size: .6rem;
+    font-size: 0.6rem;
 }
 
 .btn {
@@ -73,9 +73,9 @@ a {
     margin-top: 1em;
     color: #fff;
     border: 2px solid #000;
-    padding: .3rem 1rem;
+    padding: 0.3rem 1rem;
     background-color: rgb(0 0 0 / 60%);
-    transition: .6s;
+    transition: 0.6s;
     border-radius: 1rem;
 }
 
@@ -89,17 +89,17 @@ a {
     padding: 1rem;
 }
 
-.container>* {
-    border: .4rem solid #000;
+.container > * {
+    border: 0.4rem solid #000;
     padding: 10px 0;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     /* Fallback color */
     background-color: rgb(0 0 0 / 60%);
     /* Black w/opacity/see-through */
     cursor: pointer;
 }
 
-.container>*:hover {
+.container > *:hover {
     transform: scale(1.1);
 }
 
@@ -116,7 +116,6 @@ a {
     border-color: #ffc600;
     box-shadow: 0 0 10px #ffc600;
 }
-
 
 /** MEDIA QUERIES **/
 
