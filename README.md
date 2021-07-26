@@ -18,4 +18,6 @@
 
 ### [Day 7 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day7)
 
+### [Day 8 - Html 5 Canvas](https://github.com/Karllouise-code/javascript-30/tree/day8)
+
 #### Challenge By [Wes Bos](https://javascript30.com/)
