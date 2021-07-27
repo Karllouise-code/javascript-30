@@ -1,6 +1,8 @@
 # JavaScript 30 Day Challenge
 
-**To see my progress on each day kindly click on the branches and find what day you want to look for where you will see how I solve the challenge as well as view the live website.**
+**To see my progress on each day kindly click on the branches and find what day
+you want to look for where you will see how I solve the challenge as well as
+view the live website.**
 
 ## Contents
 
@@ -19,5 +21,7 @@
 ### [Day 7 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day7)
 
 ### [Day 8 - Html 5 Canvas](https://github.com/Karllouise-code/javascript-30/tree/day8)
+
+### [Day 9 - Console Tricks!](https://github.com/Karllouise-code/javascript-30/tree/day9)
 
 #### Challenge By [Wes Bos](https://javascript30.com/)

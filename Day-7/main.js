@@ -17,7 +17,7 @@ const people = [
         name: 'Lux',
         year: 2015,
     },
-]
+];
 
 const comments = [
     {
@@ -40,7 +40,7 @@ const comments = [
         text: 'Nice Nice Nice!',
         id: 542328,
     },
-]
+];
 
 // Some and Every Checks
 // Array.prototype.some() // is at least one person 19 or older?
@@ -60,23 +60,23 @@ console.log(isAdult);
     }) */
 //* OPTION 3 - HOTSHOT 🔥
 const isAdult = people.some(
-    (person) => new Date().getFullYear() - person.year >= 19,
-)
-console.log({ isAdult })
+    person => new Date().getFullYear() - person.year >= 19,
+);
+console.log({ isAdult });
 
 // Array.prototype.every() // is everyone 19 or older?
 //* My Answer
-const olderNineteen = people.every((person) => {
-    const currentYear = new Date().getFullYear()
-    return currentYear - person.year >= 19
-})
-console.log({ olderNineteen })
+const olderNineteen = people.every(person => {
+    const currentYear = new Date().getFullYear();
+    return currentYear - person.year >= 19;
+});
+console.log({ olderNineteen });
 
 //* WES BOS
 const allAdults = people.every(
-    (person) => new Date().getFullYear() - person.year >= 19,
-)
-console.log({ allAdults })
+    person => new Date().getFullYear() - person.year >= 19,
+);
+console.log({ allAdults });
 
 // Array.prototype.find()
 // Find is like filter, but instead returns just the one you are looking for
@@ -84,22 +84,22 @@ console.log({ allAdults })
 
 //* MY ANSWER
 function withId(id) {
-    return id.id === 823423
+    return id.id === 823423;
 }
-console.log(comments.find(withId))
+console.log(comments.find(withId));
 
 //* WES BOS
 //* OPTION 1
 const comment = comments.find(function (comment) {
     if (comment.id === 823423) {
-        return true
+        return true;
     }
-})
-console.log(comment)
+});
+console.log(comment);
 
 //* OPTION 2
-const commentOp2 = comments.find((comment) => comment.id === 823423)
-console.log(comment)
+const commentOp2 = comments.find(comment => comment.id === 823423);
+console.log(comment);
 
 // Array.prototype.findIndex()
 // Find the comment with this ID
@@ -111,7 +111,7 @@ console.log(comment)
 // console.log(comments);
 
 //* WES BOS
-const index = comments.findIndex((comment) => comment.id === 823423)
+const index = comments.findIndex(comment => comment.id === 823423);
 // comments.splice(index, 1)
 
-const newComments = [...comments.slice(0, index), ...comments.slice(index + 1)]
+const newComments = [...comments.slice(0, index), ...comments.slice(index + 1)];
