@@ -1,27 +1,49 @@
-# JavaScript 30 Day Challenge
+# Day 9
 
-**To see my progress on each day kindly click on the branches and find what day
-you want to look for where you will see how I solve the challenge as well as
-view the live website.**
+## Console Tricks!
+
+This is the solution to the [ninth day challenge](https://javascript30.com/)
+which is the Console Tricks!.
 
 ## Contents
 
-### [Day 1 - Drum Kit](https://github.com/Karllouise-code/javascript-30/tree/day1)
+- [Challenge and Process](#challenge-and-process)
+- [Favorite Code](#favorite-code)
+- [Learnings](#what-i-learned)
+- [Useful Resources](#useful-resources)
+- [Links](#link)
 
-### [Day 2 - Analog Clock](https://github.com/Karllouise-code/javascript-30/tree/day2)
+## Challenge and Process
 
-### [Day 3 - Scoped CSS Variables and JavaScript](https://github.com/Karllouise-code/javascript-30/tree/day3)
+Today is not about the challenge but more on tips about the dev tool as well as
+the various things that console.log can do.
 
-### [Day 4 - Array Cardio Day 1](https://github.com/Karllouise-code/javascript-30/tree/day4)
+## Favorite Code
 
-### [Day 5 - Flex Panels](https://github.com/Karllouise-code/javascript-30/tree/day5)
+```js
+//* Grouping together
+dogs.forEach(dog => {
+  console.groupCollapsed(`${dog.name}`);
+  console.log(`This is ${dog.name}`);
+  console.log(`${dog.name} is ${dog.age} years old`);
+  console.groupEnd(`${dog.name}`);
+});
+```
 
-### [Day 6 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day6)
+## What I Learned
 
-### [Day 7 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day7)
+Today, my knowledge of using the browser dev tool has expanded:
 
-### [Day 8 - Html 5 Canvas](https://github.com/Karllouise-code/javascript-30/tree/day8)
+- I discovered that you can also a debugger,
+- Find out what html attribute is used,
+- Find out which part of the code has javascript ,occurrence and,
+- Of course the tricks of using Console.log.
 
-### [Day 9 - Console Tricks!](https://github.com/Karllouise-code/javascript-30/tree/day9)
+## Useful Resources
 
-#### Challenge By [Wes Bos](https://javascript30.com/)
+- [Day 9 Template](https://github.com/wesbos/JavaScript30/tree/master/09%20-%20Dev%20Tools%20Domination)
+
+## Link
+
+See Solution -
+<https://github.com/Karllouise-code/javascript-30/blob/main/Day-9/main.js>
