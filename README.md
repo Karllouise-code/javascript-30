@@ -24,4 +24,6 @@ view the live website.**
 
 ### [Day 9 - Console Tricks!](https://github.com/Karllouise-code/javascript-30/tree/day9)
 
+### [Day 10 - Hold Shift to Check Multiple Checkboxes](https://github.com/Karllouise-code/javascript-30/tree/day10)
+
 #### Challenge By [Wes Bos](https://javascript30.com/)
