@@ -38,11 +38,11 @@ progress.addEventListener('mouseup', () => (mousedown = false))
 
 ## App Demo
 
-![](https://github.com/Karllouise-code/javascript-30/blob/main/Day-10/resources/videoplayer.gif)
+![](https://github.com/Karllouise-code/javascript-30/blob/day11/resources/videoplayer.gif)
 
 ## Screenshot
 
-![](https://github.com/Karllouise-code/javascript-30/blob/day10/resources/fullscreenshot.png)
+![](https://github.com/Karllouise-code/javascript-30/blob/day11/resources/fullscreenshot.png)
 
 ## What I Learned
 
