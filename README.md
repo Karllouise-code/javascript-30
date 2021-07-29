@@ -26,4 +26,6 @@ view the live website.**
 
 ### [Day 10 - Hold Shift to Check Multiple Checkboxes](https://github.com/Karllouise-code/javascript-30/tree/day10)
 
+### [Day 11 - HTML Video Player](https://github.com/Karllouise-code/javascript-30/tree/day11)
+
 #### Challenge By [Wes Bos](https://javascript30.com/)
