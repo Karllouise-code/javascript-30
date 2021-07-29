@@ -1,31 +1,63 @@
-# JavaScript 30 Day Challenge
+# Day 11
 
-**To see my progress on each day kindly click on the branches and find what day
-you want to look for where you will see how I solve the challenge as well as
-view the live website.**
+## HTML Video Player
+
+This is the solution to the [eleventh day challenge](https://javascript30.com/)
+which is the HTML Video Player.
 
 ## Contents
 
-### [Day 1 - Drum Kit](https://github.com/Karllouise-code/javascript-30/tree/day1)
+- [Challenge and Process](#challenge-and-process)
+- [Favorite Code](#favorite-code)
+- [App Demo](#app-demo)
+- [Full Screenshot](#screenshot)
+- [Learnings](#what-i-learned)
+- [Useful Resources](#useful-resources)
+- [Links](#link)
 
-### [Day 2 - Analog Clock](https://github.com/Karllouise-code/javascript-30/tree/day2)
+## Challenge and Process
 
-### [Day 3 - Scoped CSS Variables and JavaScript](https://github.com/Karllouise-code/javascript-30/tree/day3)
+- Make your own video control as shown by Wes Bos
+- Add a feature if you can but if you can't, look at the finish file or follow
+  Wes Bos's process
+- Research about video tags
+- Get elements first
+- Build out functions to handle handle updates
+- Hook up the event listeners
 
-### [Day 4 - Array Cardio Day 1](https://github.com/Karllouise-code/javascript-30/tree/day4)
+## Favorite Code
 
-### [Day 5 - Flex Panels](https://github.com/Karllouise-code/javascript-30/tree/day5)
+```js
+// TO HANDLE MOUSE CHANGE WHEN IF USER IS JUST CLICKING IF NOT DO NOT CHANGE
+let mousedown = false
+progress.addEventListener('click', scrub)
+progress.addEventListener('mousemove', e => mousedown && scrub(e))
+progress.addEventListener('mousedown', () => (mousedown = true))
+progress.addEventListener('mouseup', () => (mousedown = false))
+```
 
-### [Day 6 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day6)
+## App Demo
 
-### [Day 7 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day7)
+![](https://github.com/Karllouise-code/javascript-30/blob/main/Day-10/resources/videoplayer.gif)
 
-### [Day 8 - Html 5 Canvas](https://github.com/Karllouise-code/javascript-30/tree/day8)
+## Screenshot
 
-### [Day 9 - Console Tricks!](https://github.com/Karllouise-code/javascript-30/tree/day9)
+![](https://github.com/Karllouise-code/javascript-30/blob/day10/resources/fullscreenshot.png)
 
-### [Day 10 - Hold Shift to Check Multiple Checkboxes](https://github.com/Karllouise-code/javascript-30/tree/day10)
+## What I Learned
 
-### [Day 11 - HTML Video Player](https://github.com/Karllouise-code/javascript-30/tree/day11)
+The most that I have learned today is about manipulating a video element using
+HTML, CSS, and JavaScript.
 
-#### Challenge By [Wes Bos](https://javascript30.com/)
+I realized that videos on famous websites like youtube really made an effort in
+making such videos on the purpose of making user experience better.
+
+## Useful Resources
+
+- [Day 11 Template](https://github.com/wesbos/JavaScript30/tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)
+- [MDN - video: The Video Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
+- [W3School - HTML Video](https://www.w3schools.com/html/html5_video.asp)
+
+## Link
+
+Live Site - <https://klr-videoplayer.netlify.app/>
