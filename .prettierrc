@@ -3,16 +3,9 @@
     "singleQuote": true,
     "trailingComma": "all",
     "tabWidth": 4,
-    "semi": false,
+    "semi": true,
     "arrowParens": "avoid",
     "proseWrap": "always",
 
-    "overrides": [
-        {
-            "files": "*.md",
-            "options": {
-                "tabWidth": 2
-            }
-        }
-    ]
+    "overrides": [{ "files": "*.md", "options": { "tabWidth": 2 } }]
 }

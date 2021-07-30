@@ -28,4 +28,6 @@ view the live website.**
 
 ### [Day 11 - HTML Video Player](https://github.com/Karllouise-code/javascript-30/tree/day11)
 
+### [Day 12 - Key Detection](https://github.com/Karllouise-code/javascript-30/tree/day12)
+
 #### Challenge By [Wes Bos](https://javascript30.com/)
