@@ -42,7 +42,7 @@ window.addEventListener('keyup', e => {
 
 ## Screenshot
 
-![](https://github.com/Karllouise-code/javascript-30/blob/day12/resources/fullscreenshot.png)
+![](https://github.com/Karllouise-code/javascript-30/blob/day12/images/fullscreenshot.png)
 
 ## What I Learned
 
