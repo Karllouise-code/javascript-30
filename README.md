@@ -1,33 +1,58 @@
-# JavaScript 30 Day Challenge
+# Day 12
 
-**To see my progress on each day kindly click on the branches and find what day
-you want to look for where you will see how I solve the challenge as well as
-view the live website.**
+## Key Detection
+
+This is the solution to the [twelve day challenge](https://javascript30.com/)
+which is the HTML Video Player.
 
 ## Contents
 
-### [Day 1 - Drum Kit](https://github.com/Karllouise-code/javascript-30/tree/day1)
+- [Challenge and Process](#challenge-and-process)
+- [Favorite Code](#favorite-code)
+- [Full Screenshot](#screenshot)
+- [Learnings](#what-i-learned)
+- [Useful Resources](#useful-resources)
+- [Link](#link)
 
-### [Day 2 - Analog Clock](https://github.com/Karllouise-code/javascript-30/tree/day2)
+## Challenge and Process
 
-### [Day 3 - Scoped CSS Variables and JavaScript](https://github.com/Karllouise-code/javascript-30/tree/day3)
+- Listen for key press
+- Use window document
+- Use splice and push method
+- Store key press in an array
+- Add cornify js for fun
 
-### [Day 4 - Array Cardio Day 1](https://github.com/Karllouise-code/javascript-30/tree/day4)
+## Favorite Code
 
-### [Day 5 - Flex Panels](https://github.com/Karllouise-code/javascript-30/tree/day5)
+```js
+//* PRESS ARRAY
+const pressed = [];
+const secretCode = 'kim';
+window.addEventListener('keyup', e => {
+  console.log(e.key);
+  pressed.push(e.key);
+  pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+  if (pressed.join('').includes(secretCode)) {
+    console.log('DING DING!');
+    cornify_add();
+  }
+  console.log(pressed);
+});
+```
 
-### [Day 6 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day6)
+## Screenshot
 
-### [Day 7 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day7)
+![](https://github.com/Karllouise-code/javascript-30/blob/day12/resources/fullscreenshot.png)
 
-### [Day 8 - Html 5 Canvas](https://github.com/Karllouise-code/javascript-30/tree/day8)
+## What I Learned
 
-### [Day 9 - Console Tricks!](https://github.com/Karllouise-code/javascript-30/tree/day9)
+Today, what I learned is how to listen to what the user types using e.key and
+also increased my idea that such things can be done.
 
-### [Day 10 - Hold Shift to Check Multiple Checkboxes](https://github.com/Karllouise-code/javascript-30/tree/day10)
+## Useful Resources
 
-### [Day 11 - HTML Video Player](https://github.com/Karllouise-code/javascript-30/tree/day11)
+- [Day 12 Template](https://github.com/wesbos/JavaScript30/tree/master/12%20-%20Key%20Sequence%20Detection)
 
-### [Day 12 - Key Detection](https://github.com/Karllouise-code/javascript-30/tree/day12)
+## Link
 
-#### Challenge By [Wes Bos](https://javascript30.com/)
+Live Site - <https://klr-keydetection.netlify.app/>
