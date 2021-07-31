@@ -18,7 +18,7 @@ view the live website.**
 
 ### [Day 6 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day6)
 
-### [Day 7 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day7)
+### [Day 7 - Array Cardio Day 2](https://github.com/Karllouise-code/javascript-30/tree/day7)
 
 ### [Day 8 - Html 5 Canvas](https://github.com/Karllouise-code/javascript-30/tree/day8)
 
