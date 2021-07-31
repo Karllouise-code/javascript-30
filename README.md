@@ -1,35 +1,70 @@
-# JavaScript 30 Day Challenge
+# Day 13
 
-**To see my progress on each day kindly click on the branches and find what day
-you want to look for where you will see how I solve the challenge as well as
-view the live website.**
+## Slide In on Scroll
+
+This is the solution to the
+[thirteenth day challenge](https://javascript30.com/) which is the Slide In on
+Scroll Images.
 
 ## Contents
 
-### [Day 1 - Drum Kit](https://github.com/Karllouise-code/javascript-30/tree/day1)
+- [Challenge and Process](#challenge-and-process)
+- [Favorite Code](#favorite-code)
+- [App Demo](#app-demo)
+- [Full Screenshot](#screenshot)
+- [Learnings](#what-i-learned)
+- [Useful Resources](#useful-resources)
+- [Link](#link)
 
-### [Day 2 - Analog Clock](https://github.com/Karllouise-code/javascript-30/tree/day2)
+## Challenge and Process
 
-### [Day 3 - Scoped CSS Variables and JavaScript](https://github.com/Karllouise-code/javascript-30/tree/day3)
+- Hide first the images using opacity and transform properties
+- Create a 'active' class to reveal images like turning back the transform
+  properties as well as the opacity value.
+- Use and research about the debounce provided by Wes Bos
+- Use window with scroll event to listen for the mouse scroll
+- Create a formula to calculate when to reveal the image (e.g. half way & bottom
+  of the images)
 
-### [Day 4 - Array Cardio Day 1](https://github.com/Karllouise-code/javascript-30/tree/day4)
+## Favorite Code
 
-### [Day 5 - Flex Panels](https://github.com/Karllouise-code/javascript-30/tree/day5)
+```js
+// To control the trigger of the scroll event
+function debounce(func, wait = 20, immediate = true) {
+	var timeout;
+	return function () {
+		var context = this,
+			args = arguments;
+		var later = function () {
+			timeout = null;
+			if (!immediate) func.apply(context, args);
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait);
+		if (callNow) func.apply(context, args);
+	};
+}
+```
 
-### [Day 6 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day6)
+## App Demo
 
-### [Day 7 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day7)
+![](https://github.com/Karllouise-code/javascript-30/blob/main/Day-13/images/slidescroll.gif)
 
-### [Day 8 - Html 5 Canvas](https://github.com/Karllouise-code/javascript-30/tree/day8)
+## Screenshot
 
-### [Day 9 - Console Tricks!](https://github.com/Karllouise-code/javascript-30/tree/day9)
+![](https://github.com/Karllouise-code/javascript-30/blob/day13/resources/fullscreenshot.png)
 
-### [Day 10 - Hold Shift to Check Multiple Checkboxes](https://github.com/Karllouise-code/javascript-30/tree/day10)
+## What I Learned
 
-### [Day 11 - HTML Video Player](https://github.com/Karllouise-code/javascript-30/tree/day11)
+Day 13 - I learned how to put a scrolling event on images so that the User
+Experience of my website visitors would be better and also this has increased my
+knowledge about adding an event listener to the elements.
 
-### [Day 12 - Key Detection](https://github.com/Karllouise-code/javascript-30/tree/day12)
+## Useful Resources
 
-### [Day 13 - Slide In on Scroll](https://github.com/Karllouise-code/javascript-30/tree/day13)
+- [Day 13 Template](https://github.com/wesbos/JavaScript30/tree/master/13%20-%20Slide%20in%20on%20Scroll)
 
-#### Challenge By [Wes Bos](https://javascript30.com/)
+## Link
+
+Live Site - <https://klr-slidescroll.netlify.app/>
