@@ -30,4 +30,6 @@ view the live website.**
 
 ### [Day 12 - Key Detection](https://github.com/Karllouise-code/javascript-30/tree/day12)
 
+### [Day 13 - Slide In on Scroll](https://github.com/Karllouise-code/javascript-30/tree/day13)
+
 #### Challenge By [Wes Bos](https://javascript30.com/)
