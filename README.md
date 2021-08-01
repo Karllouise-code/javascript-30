@@ -18,7 +18,7 @@ view the live website.**
 
 ### [Day 6 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day6)
 
-### [Day 7 - Type Ahead](https://github.com/Karllouise-code/javascript-30/tree/day7)
+### [Day 7 - Array Cardio Day 2](https://github.com/Karllouise-code/javascript-30/tree/day7)
 
 ### [Day 8 - Html 5 Canvas](https://github.com/Karllouise-code/javascript-30/tree/day8)
 
@@ -31,5 +31,7 @@ view the live website.**
 ### [Day 12 - Key Detection](https://github.com/Karllouise-code/javascript-30/tree/day12)
 
 ### [Day 13 - Slide In on Scroll](https://github.com/Karllouise-code/javascript-30/tree/day13)
+
+### [Day 13 - JS Reference VS Copy](https://github.com/Karllouise-code/javascript-30/tree/day14)
 
 #### Challenge By [Wes Bos](https://javascript30.com/)
