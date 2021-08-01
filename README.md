@@ -12,6 +12,7 @@ Vs Copy.
 - [Favorite Code](#favorite-code)
 - [Learnings](#what-i-learned)
 - [Useful Resources](#useful-resources)
+- [Link](#link)
 
 ## Challenge and Process
 
@@ -47,3 +48,7 @@ different data types to their values.
 ## Useful Resources
 
 - [Day 14 Template](https://github.com/wesbos/JavaScript30/tree/master/14%20-%20JavaScript%20References%20VS%20Copying)
+
+
+## Link
+[See Solution on Main.js](https://github.com/Karllouise-code/javascript-30/blob/day14/main.js)
