@@ -32,6 +32,8 @@ view the live website.**
 
 ### [Day 13 - Slide In on Scroll](https://github.com/Karllouise-code/javascript-30/tree/day13)
 
-### [Day 13 - JS Reference VS Copy](https://github.com/Karllouise-code/javascript-30/tree/day14)
+### [Day 14 - JS Reference VS Copy](https://github.com/Karllouise-code/javascript-30/tree/day14)
+
+### [Day 15 - LocalStorage and Event Delegation](https://github.com/Karllouise-code/javascript-30/tree/day15)
 
 #### Challenge By [Wes Bos](https://javascript30.com/)
