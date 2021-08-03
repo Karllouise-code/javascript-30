@@ -36,4 +36,6 @@ view the live website.**
 
 ### [Day 15 - LocalStorage and Event Delegation](https://github.com/Karllouise-code/javascript-30/tree/day15)
 
+### [Day 16 - CSS Text Shadow Mouse Move Effect](https://github.com/Karllouise-code/javascript-30/tree/day16)
+
 #### Challenge By [Wes Bos](https://javascript30.com/)
