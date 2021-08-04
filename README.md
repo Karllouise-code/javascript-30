@@ -38,4 +38,6 @@ view the live website.**
 
 ### [Day 16 - CSS Text Shadow Mouse Move Effect](https://github.com/Karllouise-code/javascript-30/tree/day16)
 
+### [Day 17 - Sort Without Articles](https://github.com/Karllouise-code/javascript-30/tree/day17)
+
 #### Challenge By [Wes Bos](https://javascript30.com/)
