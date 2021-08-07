@@ -40,4 +40,6 @@ view the live website.**
 
 ### [Day 17 - Sort Without Articles](https://github.com/Karllouise-code/javascript-30/tree/day17)
 
+### [Day 18 - Tally String Times with Reduce](https://github.com/Karllouise-code/javascript-30/tree/day18)
+
 #### Challenge By [Wes Bos](https://javascript30.com/)
