@@ -42,4 +42,6 @@ view the live website.**
 
 ### [Day 18 - Tally String Times with Reduce](https://github.com/Karllouise-code/javascript-30/tree/day18)
 
+### [Day 19 - Webcam Fun](https://github.com/Karllouise-code/javascript-30/tree/day19)
+
 #### Challenge By [Wes Bos](https://javascript30.com/)
